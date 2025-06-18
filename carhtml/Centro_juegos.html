@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aprendizaje</title>
+  <link rel="stylesheet" href="/carcss/Centro_juegos.css" />
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #949DC8;
+      padding: 20px;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      position: relative;
+    }
+
+    button, .chest {
+      border: none;
+      
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    button.done {
+      transform: scale(1.1);
+    }
+
+    .icon svg {
+      width: 50px;
+      height: 50px;
+    }
+
+    .chest svg {
+      width: 80px;
+      height: 90px;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="conten_body">
+    <div class="col"></div>
+
+    <div class="col1">
+      <img class="iconos" src="/galeria/Serenity.__3_-removebg-preview.png" style="background-color: #F5F6F7;" alt="">
+      
+      <div class="cuadro_desafios">
+        <h2 class="desafios">Desafíos del día ...</h2>
+        <img class="fueguito" src="/galeria/fuego-removebg-preview.png" style="width: 50px; height: 8vh;">
+        <button class="boton-racha">0/1</button>
+        <img class="cofre" src="/galeria/cofre-removebg-preview.png" style="background-color: #F5F6F7; width: 70px; height: 7vh;">
+      </div>
+
+      <div>
+        <h1 class="titulo_juego">
+          <img class="logo" src="/galeria/logo2.0.webp" style="background-color:#F5F6F7;" alt="">
+          <div><h4 class="sereniry_logo">Serenity</h4></div>
+        </h1>
+      </div>
+
+      <div class="elementos">
+        <img src="/galeria/Serenity.-removebg-preview.png" style="background-color: #F5F6F7; margin-left: 35%; height: 40vh;" alt="">
+      </div>
+       <div class="javamapa" id="app"></div>
+
+      <div>
+        <img class="imgsire" src="/galeria/sirena_sere-removebg-preview.png" alt="">
+      </div>
+      
+       <div class="contenedor_botones">
+      
+        <div > <a href="/carhtml/juegoP.html"><button class="boton_aprender">Aprender</button></a></div>
+        <div > <a href="/carhtml/memoria.html"><button class="boton_desafios">Desafíos</button></a></div>
+       <div > <a href="/carhtml/tienda.html"><button class="boton_tienda">Tienda</button></a></div>
+        <div ><a href="/carhtml/perfil-usu.html"><button class="boton_perfil">Perfil</button></a></div>
+       <div > <a href="/carhtml/sobreN.html"><button class="boton_mas">más...</button></a></div>
+       </div>
+      
+
+     
+      
+    </div>
+  </div>
+
+
+  <script src="/carjavascripts/sirena.js" defer></script>
+</body>
+</html> 

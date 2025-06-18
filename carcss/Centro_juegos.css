@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --color-primary: #cdc1dd;
+  --color-secondary: #cebece;
+  --color-primary-shadow: #c0aadd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.conten_body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.col {
+  width: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  height: initial;
+}
+
+.col1 {
+  width: 30%;
+  background-color: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.cuadro_desafios {
+  border-radius: 20px;
+  height: 20vh;
+  width: 70%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: #F5F6F7;
+  border: #CDC1DD solid 10px;
+}
+
+.logo {
+ left: 1137px;
+    position: absolute;
+    top: 300px;
+    height: 8%;
+    width: 4%;
+}
+
+.titulo_juego {
+  background-color: #F5F6F7;
+  text-align: center;
+  font-family: "Open Sans", serif;
+}
+
+.desafios {
+  background-color: #F5F6F7;
+  font-family: "Open Sans", serif;
+  text-align: center;
+}
+
+.fueguito {
+  background-color: #F5F6F7;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.cofre {
+  margin-left: 70%;
+  margin-top: -50%;
+}
+
+.contenedor_botones{
+            position: absolute;
+    background-color: #F5F6F7;
+    top: 359px;
+    left: 1250px;
+}
+.boton_aprender{
+        background-color: var(--color-primary);
+  color: #737373;
+  border: none;
+  width: 130px;
+  height: 33px;
+margin: 10%;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 6px 0 var(--color-primary-shadow);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.boton_desafios{
+background-color: var(--color-primary);
+  color: #737373;
+  border: none;
+  width: 130px;
+  height: 33px;
+margin: 10%;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 6px 0 var(--color-primary-shadow);
+ 
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.boton_tienda{
+background-color: var(--color-primary);
+  color: #737373;
+  border: none;
+  width: 130px;
+  height: 33px;
+margin: 10%;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 6px 0 var(--color-primary-shadow);
+  
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.boton_perfil{
+background-color: var(--color-primary);
+  color: #737373;
+  border: none;
+  width: 130px;
+  height: 33px;
+ margin: 10%;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 6px 0 var(--color-primary-shadow);
+ 
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.boton_mas {
+  background-color: var(--color-primary);
+  color: #737373;
+  border: none;
+  width: 130px;
+  height: 33px;
+ margin: 10%;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 6px 0 var(--color-primary-shadow);
+  
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+ 
+}
+
+.boton_aprender:active,
+.boton_desafios:active,
+.boton_tienda:active,
+.boton_perfil:active,
+.boton_mas:active {
+  box-shadow: none;
+  transform: translateY(6px);
+}
+
+
+.boton-racha {
+  background-color: #CDC1DD;
+  margin-left: 5%;
+  margin-top: 5%;
+  color: #737373;
+  border: none;
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 var(--color-primary-shadow);
+  transition: all 0.2s;
+}
+
+
+.elementos{
+          left: 1114px;
+    top: 381px;
+    position: absolute;
+
+}
+
+
+button {
+  position: relative;
+  height: 65px;
+  width: 73px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-secondary);
+  box-shadow: 0px 8px 0 0 #bfbfbf;
+  cursor: pointer;
+}
+
+button.done {
+  background-color: var(--color-primary);
+  box-shadow: 0px 8px 0 0 var(--color-primary-shadow);
+  transition: 0.3s;
+}
+
+button.done .icon path {
+  fill: white;
+}
+
+button:active {
+  box-shadow: none;
+  top: 8px;
+}
+
+/* este es el Contenedor de botones de mapa */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+
+.imgsire {
+  position: absolute;
+  top: 259px;
+  left: 71px;
+  width: 594px;
+  transform: rotate(75deg);
+}
+
+
+.javamapa {
+  top: -330px;
+  left: -634px;
+}
+.serenity_logo{
+    position: absolute;
+     left: 1155px;
+     top: 258px;
+}

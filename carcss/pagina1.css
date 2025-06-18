@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-image: url("/galeria/WhatsApp\ Image\ 2024-11-05\ at\ 2.55.34\ PM.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    
+}
+
+.botoncito{
+    height: 50px;
+    width: 225px;
+    font-size: 25px;
+    text-align: center;
+    font-family:"Open Sans", sans-serif; 
+    border: 0px;
+    border-radius: 30px;
+}
+.nav-item{
+    font-family: "Cambay", sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.navbar-light{
+    padding: 10px;
+
+}
+.conten_logo  {
+    margin-left: 1%;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.conten_nav2{
+    width: auto;
+    margin-left: 60%;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family:"Abril Fatface", serif;
+}
+.titulo{
+    font-size: 80px;
+    margin-top: 80%;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-right: 10%;
+}
+.titulo_1{
+
+    width: 500px;
+    margin-left: 36%;
+    margin-top: -25%; 
+    text-align: center;
+}
+.titulo_2{
+    width: 350px;
+    margin-left: 40%;
+    margin-top: -8px; 
+    text-align: center;
+}
+.titulo2{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo3{
+    width: 300px;
+    margin-left: 42%;
+    margin-top: 2%;
+    text-align: center;
+}
+.titulo_3{
+    font-size: 20px;
+}
+.navjustify-content-end{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.conten_button{
+    width: 225px;
+    height: 5vh;
+    margin-top: 3%;
+    margin-left: 45%;
+
+}
+
+
+/* Estilos para móviles pequeños */
+@media (max-width:480px) {
+  body {
+    background-size:  692% auto;
+    background-image: url("/galeria/WhatsApp\ Image\ 2024-11-05\ at\ 2.55.34\ PM.jpeg");
+  }
+  .navbar-light{
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    width: 172%;
+}
+.conten_nav2{
+    width: auto;
+    margin-left: 14%;
+}
+.titulo{
+         font-size: 92px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex
+;
+        top: -22%;
+        position: absolute;
+        left: 16%;
+        color: #d5d3d3;
+}
+.titulo2{
+         font-size: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 77%;
+        left: 55%;
+        color: #d5d3d3;
+}
+.titulo_3{
+    font-size: 22px;
+    position: absolute;
+    top: 115%;
+    left: 60%;
+}
+.botoncito{
+          height: 59px;
+        width: 232px;
+        font-size: 26px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        border: 0px;
+        border-radius: 30px;
+        position: absolute;
+        top: 104%;
+        left: 51%;
+    }
+}
+/* tabletas */
+@media (max-width: 780px) {
+  body {
+   
+    background-size: auto 
+  }
+  .navbar-light{
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    width: 122%;
+}
+.conten_nav2{
+    width: auto;
+    margin-left: 14%;
+}
+.titulo{
+      font-size: 51px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex
+;
+        top: -69%;
+        position: absolute;
+        left: 36%;
+        color: #d5d3d3;
+        display: block;
+}
+.titulo2{
+               font-size: 25px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 56%;
+        left: 38%;
+        color: #d5d3d3;
+        display: block;
+}
+.titulo_3{
+       font-size: 22px;
+        position: absolute;
+        top: 78%;
+        left: 51%;
+        display: block;
+}
+.botoncito{
+               display: block;
+        height: 59px;
+        width: 232px;
+        font-size: 26px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        border: 0px;
+        border-radius: 30px;
+        position: absolute;
+        top: 66%;
+        left: 47%;
+        
+    }
+
+    .conten_logo  {
+    margin-left: 1%;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.navbar-brand{
+    font-size: 141%;
+    font-family:"Abril Fatface", serif;
+    display: block;
+    }
+    .navjustify-content-end{
+              display: flex
+;
+        list-style-type: none;
+        gap: 0px;
+        left: 68%;
+        position: absolute;
+        top: 8%;
+    }
+}
+/* mas pequeños */
+@media (max-width: 320px) {
+  body {
+   
+    background-size: 692% auto 
+  }
+  .navbar-light{
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    width: 121%;
+}
+.conten_nav2{
+    width: auto;
+    margin-left: 14%;
+}
+.titulo{
+       font-size: 44px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex
+;
+        top: -15%;
+        position: absolute;
+        left: 20%;
+        color: #d5d3d3;
+        display: block;
+}
+.titulo2{
+                font-size: 25px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 44%;
+        left: 21%;
+        color: #d5d3d3;
+        display: block;
+}
+.titulo_3{
+           font-size: 22px;
+        position: absolute;
+        top: 78%;
+        left: 33%;
+        display: block;
+}
+.botoncito{
+             display: block;
+        height: 59px;
+        width: 232px;
+        font-size: 26px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        border: 0px;
+        border-radius: 30px;
+        position: absolute;
+        top: 66%;
+        left: 22%;
+        
+    }
+
+    .conten_logo  {
+    margin-left: 1%;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.navbar-brand{
+    font-size: 97%;
+    font-family:"Abril Fatface", serif;
+    display: block;
+    }
+    .navjustify-content-end{
+      display: flex
+;
+    list-style-type: none;
+    gap: 0px;
+    left: 3%;
+    position: absolute;
+    top: 26%;
+    }
+}
+/* tabletas  mas grandes*/
+@media (max-width: 1024px) {
+  body {
+   
+    background-size: auto 
+  }
+  .navbar-light{
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    width: 122%;
+}
+.conten_nav2{
+    width: auto;
+    margin-left: 14%;
+}
+.titulo{
+      font-size: 51px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex
+;
+        top: -91%;
+        position: absolute;
+        left: 37%;
+        color: #fff;
+        display: block;
+}
+.titulo2{
+            font-size: 25px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 63%;
+        left: 44%;
+        color: #fff;
+        display: block;
+}
+.titulo_3{
+       font-size: 22px;
+        position: absolute;
+        top: 85%;
+        left: 54%;
+        display: block;
+}
+.botoncito{
+       display: block;
+        height: 59px;
+        width: 232px;
+        font-size: 26px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        border: 0px;
+        border-radius: 30px;
+        position: absolute;
+        top: 74%;
+        left: 51%;
+        
+    }
+
+    .conten_logo  {
+    margin-left: 1%;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.navbar-brand{
+    font-size: 141%;
+    font-family:"Abril Fatface", serif;
+    display: block;
+    }
+    .navjustify-content-end{
+              display: flex
+;
+        list-style-type: none;
+        gap: 0px;
+        left: 68%;
+        position: absolute;
+        top: 8%;
+    }
+}
+
+
+
